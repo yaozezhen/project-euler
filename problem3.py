@@ -14,8 +14,6 @@ def largestPrimeFactor(n):
   while f*f <= num:  
     if (num % f == 0): 
       num /= f
-      #if (checkPrime(num) == True): 
-      #  return int(num)
     else: 
       f += 1
   return int(num)
